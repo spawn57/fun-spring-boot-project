@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "033abfc8-2dae-481b-a658-e08fe66b5d2b",
+		"name": "Fun",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Calculate Credit Score",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"companyType\": \"OTHER\",\n\t\"numberOfEmployees\": 1,\n\t\"timeInBusiness\": 1\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/calculateCreditScore?companyType=SOLE_PROPRIETORSHIP&timeInBusiness=14&numberOfEmployees=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculateCreditScore"
+					],
+					"query": [
+						{
+							"key": "companyType",
+							"value": "SOLE_PROPRIETORSHIP"
+						},
+						{
+							"key": "timeInBusiness",
+							"value": "14"
+						},
+						{
+							"key": "numberOfEmployees",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

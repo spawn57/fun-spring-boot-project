@@ -1,14 +1,10 @@
 version: '3'
 
 services:
+  fun:
+    container_name: fun
     build:
       context: .
-      dockerfile: docker/payments-instructions-service/Dockerfile
-    volumes:
+      dockerfile: docker/fun/DockerFile
     ports:
       - 8080:8080
-      - 50505:50505
-    networks:
-      - pisNetwork
-    depends_on:
-      - db
