@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    build:
+      context: .
+      dockerfile: docker/payments-instructions-service/Dockerfile
+    volumes:
+    ports:
+      - 8080:8080
+      - 50505:50505
+    networks:
+      - pisNetwork
+    depends_on:
+      - db

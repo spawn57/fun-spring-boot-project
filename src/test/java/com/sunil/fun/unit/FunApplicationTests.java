@@ -1,4 +1,4 @@
-package com.sunil.fun;
+package com.sunil.fun.unit;
 
 import org.junit.Assert;
 import org.junit.Test;
