@@ -13,8 +13,8 @@ public class CreditScoreRequest {
   @NonNull
   private CompanyType companyType;
   @NonNull
-  private Integer numberOfEmployees;
+  private int numberOfEmployees;
   @NonNull
-  private Integer timeInBusiness;
+  private int timeInBusiness;
 
 }
