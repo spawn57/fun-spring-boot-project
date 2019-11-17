@@ -2,6 +2,7 @@ package com.sunil.fun.unit.mappers;
 
 import static org.junit.Assert.assertEquals;
 
+import com.sunil.fun.mappers.CreditScoreRequestMapper;
 import com.sunil.fun.dto.CreditScoreRequestDto;
 import com.sunil.fun.entities.CompanyType;
 import com.sunil.fun.entities.CreditScoreRequest;

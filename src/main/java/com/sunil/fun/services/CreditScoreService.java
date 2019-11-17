@@ -1,8 +1,10 @@
-package com.sunil.fun.unit.services;
+package com.sunil.fun.services;
 
 import com.sunil.fun.entities.CompanyType;
 import com.sunil.fun.entities.CreditScoreRequest;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CreditScoreService {
 
   public int calculateScore(CreditScoreRequest creditScoreRequest) {

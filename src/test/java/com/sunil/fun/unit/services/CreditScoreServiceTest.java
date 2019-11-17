@@ -2,6 +2,7 @@ package com.sunil.fun.unit.services;
 
 import static org.junit.Assert.assertEquals;
 
+import com.sunil.fun.services.CreditScoreService;
 import com.sunil.fun.entities.CompanyType;
 import com.sunil.fun.entities.CreditScoreRequest;
 import org.junit.Test;
